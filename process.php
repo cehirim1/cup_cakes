@@ -48,6 +48,7 @@ echo "<p>Order Summary:</p>";
 echo "<ul>";
 echo "<li>" . implode( "</li><li>", $flavors) . "</li>";
 echo "</ul>";
+//src ends
 echo"<p>Order Total:</p>";
 echo "<p>$$price</p>";
 }
