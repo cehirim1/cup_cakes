@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Cupcake Fundraiser</title>
 
     <!-- Favicon -->
@@ -15,7 +16,7 @@
 <div>
     <form id="myForm" action="process.php" method="post">
         <p> Your name:</p>
-        <label><input type = "text" placeholder="Please input your name"></label>
+        <label><input type = "text" placeholder="Please input your name" name="name"></label>
 
         <p> <strong>Cupcake flavors:</strong></p>
         <div class="form-check">
@@ -44,6 +45,5 @@
         <br><button class="btn btn secondary" type="submit" value="Order" name="button">Order</button>
 
     </form>
-    <script src="script.js"></script>
 </body>
 </html>
